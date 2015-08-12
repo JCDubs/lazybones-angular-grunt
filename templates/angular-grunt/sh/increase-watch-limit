@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# A system has a limit on the number of files that can be watched at one time.
+# Run the following command to increase this limit.
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p

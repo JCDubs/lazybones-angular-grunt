@@ -1,0 +1,4 @@
+*.coffee
+mockData
+dev*.js
+prodApp.js

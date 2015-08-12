@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-framework="angularjs" ng-app="${moduleName}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Application Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- injector:bower:css -->
+    <!-- endinjector -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <!-- injector:css -->
+    <!-- endinjector -->
+    <!-- endbuild -->
+</head>
+
+<body>
+<div class="container">
+    <!-- inter app links -->
+    <div id="header" class="navbar-fixed-top" role="banner">
+        <div id="navMain">
+            <div id="app-nav">                
+                <div id="applicationTitle">
+                    <strong>Application Title</strong>
+                </div>
+            </div>
+            <user-login></user-login>
+        </div>
+    </div>
+
+    <br/>
+    <!-- app Breadcrumb event directive-->
+    <app-breadcrumb></app-breadcrumb>
+    <!-- app Message event directive-->
+    <app-alert></app-alert>
+    <!--NG View to render the view for the current URL.-->
+    <div ng-view></div>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- injector:bower:js -->
+    <!-- endinjector -->
+    <!-- endbuild -->
+
+    <!-- build:js(app) scripts/scripts.js -->
+    <!-- injector:js -->
+    <!-- endinjector -->
+    <!-- endbuild -->
+
+    <!-- This dependency declaration needs to be outside of the above vendor script deceleration or it will be deleted. -->
+    <script src="bower_components/file-saver/FileSaver.min.js"></script>
+</div>
+<div id="spinner" class="spinner" style="display:none;"></div>
+<footer class="footer">
+    <hr class="featurette-divider">
+    <div>
+        <p>&copy; 2015 app Metrology &amp; Gaming Limited</p>
+    </div>
+</footer>
+</body>
+</html>

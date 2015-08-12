@@ -1,0 +1,11 @@
+.idea
+*.iml
+.tmp
+bower_components
+dist
+log
+node_modules
+pid
+app/scripts/config.js
+app/scripts/app.js
+*.zip

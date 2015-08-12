@@ -1,0 +1,15 @@
+{
+  "development": {
+  },
+  "production": {
+  },
+  "apiServerUrl": {
+    "development": "",
+    "local": "",
+    "staging": "",
+    "production": ""
+  },
+  "userCookieName": "app-user",
+  "events": {
+  }
+}
