@@ -8,19 +8,17 @@ The dependencies in the created application are managed by Bower.
 The versions of all Bower packages in this template are fixed. Setting these values is not available when creating a project
 with this template. The versions are as follows:
 
-| Package | Version|
-|--|--|
-| angular | 1.4.3 |
-| bootstrap | 3.3.4 |
-| angular-cookies | 1.4.3 |
-| angular-messages | 1.4.3 |
-| ng-breadcrumbs | 0.4.1 |
-| angular-route | 1.4.3 |
-| angular-sanitize | 1.4.3 |
-| select2 | 4.0.0-rc.2 |
-| angular-mocks | 1.4.3 |
-| angular-bootstrap | ~0.13.0 |
-| angular-datepicker | ~1.0.1 |
+* angular  1.4.3
+* bootstrap  3.3.4
+* angular-cookies  1.4.3
+* angular-messages  1.4.3
+* ng-breadcrumbs  0.4.1
+* angular-route  1.4.3
+* angular-sanitize  1.4.3
+* select2  4.0.0-rc.2
+* angular-mocks  1.4.3
+* angular-bootstrap  ~0.13.0
+* angular-datepicker  ~1.0.1
 
 ## Nodejs
 
@@ -28,62 +26,58 @@ The template creates a project managed by node, all node packaged included in th
 
 ### Dependencies
 
-| Package | Version|
-|--|--|
-| body-parser | ^1.0.2 |
-| debug | ~2.1.1 |
-| error-handler | ^0.1.4 |
-| express | ~4.1.1 |
-| glob | ^5.0.13 |
-| https | ^1.0.0 |
-| jade | ^1.9.2 |
-| load-grunt-configs | ^0.4.3 |
-| method-override | ^1.0.0 |
-| morgan | ^1.0.0 |
-| path | ^0.11.14 |
-| serve-favicon | ~2.2.0 |
+* body-parser  ^1.0.2
+* debug  ~2.1.1
+* error-handler  ^0.1.4
+* express  ~4.1.1
+* glob  ^5.0.13
+* https  ^1.0.0
+* jade  ^1.9.2
+* load-grunt-configs  ^0.4.3
+* method-override  ^1.0.0
+* morgan  ^1.0.0
+* path  ^0.11.14
+* serve-favicon  ~2.2.0
 
 ### Dev Dependencies
 
-| Package | Version|
-|--|--|
-| autoprefixer-core | ^5.2.1 |
-| grunt | ^0.4.5 |
-| grunt-concurrent | ^1.0.0 |
-| grunt-contrib-clean | ^0.6.0 |
-| grunt-contrib-compress | ^0.13.0 |
-| grunt-contrib-concat | ^0.5.0 |
-| grunt-contrib-connect | ^0.9.0 |
-| grunt-contrib-copy | ^0.7.0 |
-| grunt-contrib-cssmin | ^0.12.0 |
-| grunt-contrib-htmlmin | ^0.4.0 |
-| grunt-contrib-imagemin | ^0.9.2 |
-| grunt-contrib-jshint | ^0.11.0 |
-| grunt-contrib-uglify | ^0.7.0 |
-| grunt-contrib-watch | ^0.6.1 |
-| grunt-file-creator | ^0.1.3 |
-| grunt-filerev | ^2.1.2 |
-| grunt-google-cdn | ^0.4.3 |
-| grunt-injector | ^0.6.0 |
-| grunt-karma | * |
-| grunt-newer | ^1.1.0 |
-| grunt-ng-annotate | ^0.9.2 |
-| grunt-ng-constant | ^1.1.0 |
-| grunt-postcss | ^0.5.5 |
-| grunt-protractor-runner | ^2.0.0 |
-| grunt-svgmin | ^2.0.0 |
-| grunt-usemin | ^3.0.0 |
-| grunt-wiredep | ^2.0.0 |
-| jasmine-reporters | ^2.0.6 |
-| jshint-stylish | ^1.0.0 |
-| karma-jasmine | * |
-| karma-phantomjs-launcher | * |
-| load-grunt-tasks | ^3.1.0 |
-| phantomjs | ^1.9.16 |
-| protractor | ^2.0.0 |
-| protractor-html-screenshot-reporter | 0.0.19 |
-| shelljs | ^0.4.0 |
-| time-grunt | ^1.0.0 |
+* autoprefixer-core  ^5.2.1
+* grunt  ^0.4.5
+* grunt-concurrent  ^1.0.0
+* grunt-contrib-clean  ^0.6.0
+* grunt-contrib-compress  ^0.13.0
+* grunt-contrib-concat  ^0.5.0
+* grunt-contrib-connect  ^0.9.0
+* grunt-contrib-copy  ^0.7.0
+* grunt-contrib-cssmin  ^0.12.0
+* grunt-contrib-htmlmin  ^0.4.0
+* grunt-contrib-imagemin  ^0.9.2
+* grunt-contrib-jshint  ^0.11.0
+* grunt-contrib-uglify  ^0.7.0
+* grunt-contrib-watch  ^0.6.1
+* grunt-file-creator  ^0.1.3
+* grunt-filerev  ^2.1.2
+* grunt-google-cdn  ^0.4.3
+* grunt-injector  ^0.6.0
+* grunt-karma  *
+* grunt-newer  ^1.1.0
+* grunt-ng-annotate  ^0.9.2
+* grunt-ng-constant  ^1.1.0
+* grunt-postcss  ^0.5.5
+* grunt-protractor-runner  ^2.0.0
+* grunt-svgmin  ^2.0.0
+* grunt-usemin  ^3.0.0
+* grunt-wiredep  ^2.0.0
+* jasmine-reporters  ^2.0.6
+* jshint-stylish  ^1.0.0
+* karma-jasmine  *
+* karma-phantomjs-launcher  *
+* load-grunt-tasks  ^3.1.0
+* phantomjs  ^1.9.16
+* protractor  ^2.0.0
+* protractor-html-screenshot-reporter  0.0.19
+* shelljs  ^0.4.0
+* time-grunt  ^1.0.0
 
 ## Grunt
 
