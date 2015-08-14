@@ -14,11 +14,7 @@
     "angular-sanitize": "1.4.3",
     "select2": "4.0.0-rc.2",
     "angular-mocks": "1.4.3",
-    "file-saver": "*",
     "angular-bootstrap": "~0.13.0",
-    "ng-file-upload": "~5.0.6",
-    "angular-datepicker": "~1.0.12",
-    "grunt": "~0.4.5"
   },
   "appPath": "src",
   "moduleName": "${moduleName}",

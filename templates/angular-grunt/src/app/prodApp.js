@@ -7,11 +7,10 @@
     'use strict';
 
     /**
-     * Security UI application production main module.
-     * @author Jason Conway-Williams <jason@app.uk.com>
+     * Application in production mode.
      */
     angular.module('${moduleName}',
-        ['ngRoute', 'ngCookies', 'ng-breadcrumbs', 'config','ui.bootstrap', 'ngFileUpload', 'datePicker']);
+        ['ngRoute', 'ngCookies', 'ng-breadcrumbs', 'config','ui.bootstrap']);
 
 })();
 

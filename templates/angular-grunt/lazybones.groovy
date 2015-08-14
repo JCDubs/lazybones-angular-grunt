@@ -15,11 +15,8 @@ params.version = ask('Define value for your application \'version\' [0.1]: ', '0
 
 //Apply the params to the template files.
 processTemplates 'package.json', params
-println 'Parsed the package,json file.'
 processTemplates 'README', params
-println 'Parsed the README file.'
 processTemplates 'bower.json', params
-println 'Parsed the BOWER.json file.'
-processTemplates 'src/index.html', params
-println 'Parsed the index.html file.'
-//processTemplates 'src/**/*', params
+processTemplates 'src/app/devApp.js', params
+processTemplates 'src/app/prodApp.js', params
+processTemplates 'src/app/routes.js', params
